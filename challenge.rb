@@ -8,19 +8,6 @@ def caeser_cipher(string, key)
     return (32).chr if char == 32
     result += (char + key).chr
   end
-  # str.bytes.each do |char|
-  #   if char.match[65-90]
-  #     result += (char + key).chr
-  #   end
-  #   if char.match[97-122]
-  #     result += (char + key).chr
-  #   end
-  #   if char == 32
-  #     result += (char).chr
-  #   end
-  #   return result += (65).chr if char == 90
-  #   return result += (97).chr if char == 122  
-  # end
   result
 end
 
