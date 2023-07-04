@@ -3,7 +3,8 @@ def caeser_cipher(string, key)
   str = string.encode('US-ASCII')
   str.encoding
   str.bytes.each do |char|
-    coded_char = char + key  
+    coded_char = char + key
+    puts coded_char 
     result += coded_char.chr
   end
   result
